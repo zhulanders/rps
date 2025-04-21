@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        button{
+            display: block;
+            margin-bottom: 10px;
+        }
+        ul{
+            list-style-type: none;
+            padding:0px;
+        }
+    </style>
 </head>
 <body>
+    <h1>Rock Paper Scissors!</h1>
+    <p>This game will be first to five. Pick your choice:</p>
+    <ul id = "choice">
+    <li><button id = "Rock"> Rock!</button></li>
+    <li><button id = "Paper"> Paper!</button></li>
+    <li><button id = "Scissors"> Scissors!</button></li>
+    </ul>
+    <div id ="container">
+    </div>
     <script src="rps.js"></script>
 </body>
 </html>
